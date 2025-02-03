@@ -1,14 +1,15 @@
-import Navbar from "@/app/components/Navbar"
+import AuthProvider from "@/app/components/SessionProvider";
+import Navbar from "@/app/components/Navbar"; // Importa el nuevo provider
 
-export default function Layout({ children }: Readonly<{ children: React.ReactNode }>) {
-    return (
-        <>
-            <main className="font-work-sans">
-                <Navbar />
-
-                {children}
-            </main>
-            <footer></footer>
-        </>
-    )
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body>
+        <AuthProvider>
+            <Navbar />
+            {children}
+        </AuthProvider>
+      </body>
+    </html>
+  );
 }
