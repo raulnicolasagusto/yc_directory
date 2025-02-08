@@ -1,5 +1,5 @@
 import AuthProvider from "@/app/components/SessionProvider";
-import Navbar from "@/app/components/Navbar"; // Importa el nuevo provider
+import Navbar from "@/components/Navbar"; // Importa el nuevo provider
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
