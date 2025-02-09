@@ -15,10 +15,11 @@ export default async function Home({ searchParams }: {
     views: 55,
     author: {
       _id: 1,
+      name: 'Raul',
      },
     _id: 1,
     description: 'this is a description',
-    image:'https://www.google.com/imgres?q=we%20robot%20elon%20musk&imgurl=https%3A%2F%2Fi.insider.com%2F67093b20a703186492812df9%3Fwidth%3D1200%26format%3Djpeg&imgrefurl=https%3A%2F%2Fwww.businessinsider.com%2Felon-musk-tesla-optimus-humanoid-robots-robotaxi-day-2024-10&docid=kWsItU4xtbFjXM&tbnid=h2-8gj6L5A3gaM&vet=12ahUKEwiG8bKn_rSLAxWRkZUCHYnALjgQM3oECH4QAA..i&w=1200&h=900&hcb=2&ved=2ahUKEwiG8bKn_rSLAxWRkZUCHYnALjgQM3oECH4QAA',
+    image:'https://cdn.pixabay.com/photo/2024/03/11/19/15/ai-generated-8627457_640.png',
     category: 'Robots',
     title: 'We Robots',
 
