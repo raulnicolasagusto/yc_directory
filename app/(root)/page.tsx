@@ -15,11 +15,10 @@ export default async function Home({ searchParams }: {
     views: 55,
     author: {
       _id: 1,
-      name: 'Raul',
      },
     _id: 1,
     description: 'this is a description',
-    image:'https://cdn.pixabay.com/photo/2024/03/11/19/15/ai-generated-8627457_640.png',
+    image:'',
     category: 'Robots',
     title: 'We Robots',
 
