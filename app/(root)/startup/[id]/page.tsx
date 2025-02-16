@@ -44,6 +44,7 @@ const page = async ({params}:{params:Promise<{id:string}>}) => {
                             <p className="text-16-medium !text-black-300">@{post?.author?.username}</p>
                         </div>
                     </Link>
+//se rompe al instalar markdown it
 
                 </div>
             </div>
